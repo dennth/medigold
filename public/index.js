@@ -12,8 +12,8 @@ function requestChatBot() {
   //if (loc) {
   //     path += "&lat=" + loc.lat + "&long=" + loc.long;
   //  }
-  oReq.open("POST", path);
-  oReq.send();
+//  oReq.open("POST", path);
+ // oReq.send();
 }
 //function chatRequested() {
 //  const params = new URLSearchParams(location.search);
