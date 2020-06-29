@@ -1,19 +1,20 @@
 function requestChatBot() {
-  const params = new URLSearchParams(location.search);
-  const oReq = new XMLHttpRequest();
-  oReq.addEventListener("load", initBotConversation);
-  var path = "/chatBot?";
-  if (params.has("userId")) {
-    path += "&userId=" + params.get("userId");
-  }
-  if (params.has("region")) {
-    path += "&region=" + params.get("region");
-  }
-  //if (loc) {
-  //     path += "&lat=" + loc.lat + "&long=" + loc.long;
+    const params = new URLSearchParams(location.search);
+    const oReq = new XMLHttpRequest();
+    oReq.addEventListener("load", initBotConversation);
+    var path = "/chatBot?";
+    if (params.has('userId')) {
+        path += "&userId=" + params.get('userId');
+    }
+    if (params.has('region')) {
+        path += "&region=" + params.get('region');
+    }
+    //if (loc) {
+   //     path += "&lat=" + loc.lat + "&long=" + loc.long;
   //  }
-  oReq.open("POST", path);
- // oReq.send();
+
+    oReq.open("POST", path);
+    oReq.send();
 }
 //function chatRequested() {
 //  const params = new URLSearchParams(location.search);
