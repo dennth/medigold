@@ -75,10 +75,9 @@ function initBotConversation() {
     token: tokenPayload.connectorToken,
     domain: domain,
   });
-
-  // const DEFAULT_ACCENT = "#0063B1";
-  const DEFAULT_ACCENT = "#AF292E";
-  const DEFAULT_SUBTLE = "#767676"; // With contrast 4.5:1 to white
+// const DEFAULT_ACCENT = "#0063B1";
+  const DEFAULT_ACCENT = "#8B1E41";
+  const DEFAULT_SUBTLE = "#53565A"; // With contrast 4.5:1 to white
   const PADDING_REGULAR = 10;
 
   const styleOptions = {
