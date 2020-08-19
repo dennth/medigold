@@ -286,7 +286,7 @@ function initBotConversation() {
                 type: "invoke",
                 name: "TriggerScenario",
                 value: {
-                  trigger: "",
+                  trigger: "leadgen",
                   args: { region: region },
                 },
               },
