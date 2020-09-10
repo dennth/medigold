@@ -1,6 +1,6 @@
 {
   "name": "healthbot-container",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A simple web page to handoff users to the Microsoft Health bot",
   "main": "server.js",
   "license": "MIT",
